@@ -3,6 +3,8 @@ Play Tic-tac-toe on your keyboard, against your keyboard!
 
 This is an implementation of Tic-tac-toe that can run on any qmk based keyboard.
 You can play against your keyboard in any text editor of your choice.
+The keyboard writes out the board as normal keystrokes and waits for your input.
+It then deletes the whole board by pressing backspace multiple times and writes out the new board state.
 Just enter the Tic-tac-toe layer and select your move by pressing 1 to 9.
 
 Tested on an Ergodox.
